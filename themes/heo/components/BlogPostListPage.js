@@ -40,6 +40,10 @@ const BlogPostListPage = ({ page = 1, posts = [], postCount, siteInfo }) => {
         {showPagination && (
           <PaginationNumber page={page} totalPage={totalPage} />
         )}
+
+        {/* 增加空行 */}
+        <br/>
+
       </div>
     )
   }
